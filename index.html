@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Catalogue</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Book Catalogue</h1>
+    <label class="label">Title</label>
+    <br>
+    <input placeholder="Title..." id="title-input" class="input">
+    <br>
+    <label class="label">Author</label>
+    <br>
+    <input placeholder="Author..." id="author-input" class="input">
+    <br>
+    <label class="label">Copies</label>
+    <br>
+    <input placeholder="Copies..." id="copies-input" class="input" type="number">
+    <br>
+    <button id="save-btn" class="btn">Save</button>
+    <button id="clear1-btn" class="btn">Clear Storage</button>
+    <label id="clear-warning" class="label">Confirm Clear? This action cannot be undone.</label>
+    <button id="clear-btn" class="btnDlt">Clear</button>
+    <button id="cancel-btn" class="btn">Cancel</button>
+    <br>
+    <br>
+    <label class="label">Search Books</label>
+    <br>
+    <input placeholder="Search..." id="search-bar" class="input">
+    <br>
+    <div id="results"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

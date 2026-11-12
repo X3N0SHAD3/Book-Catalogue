@@ -1,0 +1,68 @@
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #3b3b3b;
+  color: #ffffff;
+}
+.input {
+  background-color: #525252;
+  color: #c9c9c9;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  transition: 0.3s;
+  padding: 8px 8px;
+  margin: 10px;
+}
+.input:focus {
+  border: 1px solid #09c816;
+  outline: none;
+  box-shadow: 0 0 4px #09c816;
+  color: #ffffff;
+}
+.label {
+  font-size: 1.5rem;
+  margin: 10px
+}
+.btn {
+  background-color: #07a211;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.btn:hover {
+  background-color: #068e0f;
+}
+.btn:active {
+  background-color: #04670b;
+}
+.p {
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+.btnDlt {
+  background-color: #a50d0d;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  visibility: hidden;
+}
+.btnDlt:hover {
+  background-color: #930b0b;
+}
+.btnDlt:active {
+  background-color: #6d0808;
+}
+#clear1-btn {
+  margin-right: 40px; 
+}
+#cancel-btn {
+  visibility: hidden;
+}
+#clear-warning {
+  font-size: 1rem;
+  visibility: hidden;
+}
